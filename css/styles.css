@@ -2,8 +2,7 @@
   --accnet-color: #2196f3;
   --text-color: #757575;
   --title-text-color: #212121;
-  --background-color: #E5E5E5;
-}
+  }
 .list {
   list-style: none;
 }
@@ -78,8 +77,8 @@ body {
   text-align: center;
   margin: 0 auto;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
   color: #ffffff;
+  background: #2196F3;
   cursor: pointer;
 }
 .modal-btn:hover,
@@ -91,7 +90,6 @@ body {
 
 /*ADVANTAGES*/
 .about-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -100,7 +98,6 @@ body {
   color: var(--title-text-color);
 }
 .about-descr {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -124,7 +121,6 @@ body {
   background: #f5f4fa;
 }
 .team-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -133,7 +129,6 @@ body {
   color: var(--title-text-color);
 }
 .team-name {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -142,8 +137,6 @@ body {
   color: var(--title-text-color);
 }
 .team-descr {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -190,7 +183,6 @@ body {
 /*==============PORTFOLIO STYLES===========*/
 /*FILTER*/
 .filter-button {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63
@@ -199,15 +191,18 @@ body {
   color: var(--title-text-color);
   cursor: pointer;
 }
+.filter-button.current{
+  color: var(--accnet-color);
+}
 .filter-button:hover,
 .filter-button:focus{
   background-color: var(--accnet-color);
 }
+
 /*END FILTER*/
 
 /*PORTFOLIO*/
 .portfolio-title{
-font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
@@ -215,8 +210,6 @@ letter-spacing: 0.06em;
 color: var(--title-text-color)
 }
 .portfolio-descr{
-font-style: normal;
-font-weight: normal;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
