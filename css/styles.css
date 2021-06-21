@@ -2,7 +2,7 @@
   --accnet-color: #2196f3;
   --text-color: #757575;
   --title-text-color: #212121;
-  }
+}
 .list {
   list-style: none;
 }
@@ -78,7 +78,7 @@ body {
   margin: 0 auto;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background: #2196F3;
+  background: #2196f3;
   cursor: pointer;
 }
 .modal-btn:hover,
@@ -158,15 +158,15 @@ body {
   letter-spacing: 0.03em;
   color: var(--accnet-color);
 }
-.logo-color {
-  color: #000000;
+.footer-logo-color {
+  color: #ffffff;
 }
 .footer-item-link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-item-link:hover,
 .footer-item-link:focus {
@@ -185,34 +185,35 @@ body {
 .filter-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   cursor: pointer;
 }
-.filter-button.current{
-  color: var(--accnet-color);
-}
 .filter-button:hover,
-.filter-button:focus{
+.filter-button:focus {
   background-color: var(--accnet-color);
+}
+.filter-button.current {
+  background-color: var(--accnet-color);
+  color: #ffffff;
 }
 
 /*END FILTER*/
 
 /*PORTFOLIO*/
-.portfolio-title{
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--title-text-color)
+.portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
 }
-.portfolio-descr{
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
-color: var(--text-color)
+.portfolio-descr {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
 /*END PORTFOLIO*/
